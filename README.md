@@ -1,28 +1,14 @@
-# Landscape
-
-[![NPM version](https://badge.fury.io/js/hexo-theme-landscape.svg)](https://www.npmjs.com/package/hexo-theme-landscape)
-
-A brand new default theme for [Hexo].
-
-- [Preview](https://hexojs.github.io/hexo-theme-landscape/)
+# Hexo-theme-pointbreak
 
 ## Installation
 
 ### Install
 
-Local git install:
-
-``` bash
-$ git clone --depth 1 https://github.com/hexojs/hexo-theme-landscape themes/landscape
-```
-
 npm install:
 
 ```
-npm i hexo-theme-landscape
+npm install git+https://github.com/dzming-li/hexo-theme-pointbreak.git --force
 ```
-
-**Landscape requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin is also required.
 
 ### Enable
 
@@ -32,13 +18,6 @@ Modify `theme` setting in `_config.yml` to `landscape`.
 _config.yml
 - theme: some-theme
 + theme: landscape
-```
-
-### Update
-
-``` bash
-cd themes/landscape
-git pull
 ```
 
 ## Configuration
